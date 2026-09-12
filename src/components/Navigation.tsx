@@ -7,10 +7,10 @@ import Button from "react-bootstrap/Button";
 
 function Navigation() {
     return (
-        <Navbar expand="lg" className="culinary-navbar">
+        <Navbar expand="lg" className="culinary-navbar shadow-sm">
             <Container>
                 <Navbar.Brand href="/" className="brand">
-                    Jogja Culinary
+                    <img src="./jogja-culinary-logo.png" width={200} alt="" />
                 </Navbar.Brand>
 
                 <Navbar.Toggle aria-controls="main-navbar" />
